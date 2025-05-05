@@ -1,0 +1,119 @@
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+    max-height: 60px;
+}
+
+.nav-link {
+    color: #333;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #00796b;
+}
+
+/* Sección Títulos */
+.section-title {
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background-color: #00796b;
+}
+
+/* Caja de características */
+.feature-box {
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    background-color: #fff;
+}
+
+.feature-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    color: #00796b;
+}
+
+/* Botones */
+.btn-primary {
+    background-color: #00796b;
+    border-color: #00796b;
+}
+
+.btn-primary:hover {
+    background-color: #005b4f;
+    border-color: #005b4f;
+}
+
+.btn-outline-primary {
+    color: #00796b;
+    border-color: #00796b;
+}
+
+.btn-outline-primary:hover {
+    background-color: #00796b;
+    border-color: #00796b;
+    color: #fff;
+}
+
+.btn.btn-submit {
+    border-color: #00796b;
+    background-color: #00796b;
+}
+
+
+.contact-icon {
+    color: #00796b;
+}
+
+/* Footer */
+footer {
+    background-color: #000000;
+    color: white;
+    width: 100%;
+    margin-bottom:-100px ;
+}
+
+
+.footer-links a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+.social-icons a {
+    color: white;
+    margin-right: 15px;
+    font-size: 1.2rem;
+}
+
+
+
+p,
+.text-justify {
+    text-align: justify;
+}
+
+footer p {
+    text-align: center;
+}
